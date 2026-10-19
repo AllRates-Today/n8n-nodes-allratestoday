@@ -1,0 +1,7 @@
+dist/**/*.map
+node_modules
+*.tsbuildinfo
+scripts
+.prettierrc.js
+.eslintrc.js
+tsconfig.json

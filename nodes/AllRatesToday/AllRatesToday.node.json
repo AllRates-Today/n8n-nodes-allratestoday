@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-allratestoday.allRatesToday",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Finance & Accounting", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/AllRates-Today/n8n-nodes-allratestoday#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/AllRates-Today/n8n-nodes-allratestoday#readme"
+			}
+		]
+	}
+}
