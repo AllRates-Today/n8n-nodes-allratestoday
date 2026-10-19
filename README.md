@@ -9,6 +9,13 @@ An [n8n](https://n8n.io) community node for [AllRatesToday](https://allratestoda
 rates published by 125 central banks and tax authorities (no API key needed) and real-time mid-market rates
 with amount conversion (free API key, 300 free requests).
 
+## 🔑 Credentials
+
+Official rates need no credential. For **Market Rate** operations add an **AllRatesToday API** credential
+with your key from [allratestoday.com/register](https://allratestoday.com/register) (free, no card,
+300 free requests). The key is sent as `Authorization: Bearer <key>`; the credential test calls
+`/api/v1/rates?source=USD&target=EUR`.
+
 ## ⚡ Try it without a key
 
 The official-rate endpoints the node uses are open. Same data, no account:
@@ -47,13 +54,6 @@ npm install n8n-nodes-allratestoday
 ```
 
 Guide: [Install community nodes](https://docs.n8n.io/integrations/community-nodes/installation/).
-
-## 🔑 Credentials
-
-Official rates need no credential. For **Market Rate** operations add an **AllRatesToday API** credential
-with your key from [allratestoday.com/register](https://allratestoday.com/register) (free, no card,
-300 free requests). The key is sent as `Authorization: Bearer <key>`; the credential test calls
-`/api/v1/rates?source=USD&target=EUR`.
 
 ## 🏁 Quick start
 
