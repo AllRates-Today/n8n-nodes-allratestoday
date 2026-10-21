@@ -6,7 +6,7 @@
 [![Sources](https://img.shields.io/badge/official%20sources-125-0a7d3e.svg)](https://allratestoday.com/api/open/central-banks)
 
 An [n8n](https://n8n.io) community node for [AllRatesToday](https://allratestoday.com): the official exchange
-rates published by 125 central banks and tax authorities (no API key needed) and real-time mid-market rates
+rates published by [122 central banks and 4 tax authorities](https://allratestoday.com/central-bank-rates-api/institutions/) (no API key needed) and real-time mid-market rates
 with amount conversion (free API key, 300 free requests).
 
 ## 🔑 Credentials
@@ -45,7 +45,7 @@ Markdown: `Exchange rates by [AllRatesToday](https://allratestoday.com)`. Full w
 
 ## 🚀 Features
 
-- **Official Rate → Get Pair** — one pair from any of 125 central banks and tax authorities (ECB, Fed, BoE, RBI, SARB, HMRC, Swiss BAZG, …). Keyless.
+- **Official Rate → Get Pair** — one pair from any of [122 central banks and 4 tax authorities](https://allratestoday.com/central-bank-rates-api/institutions/) (ECB, Fed, BoE, RBI, SARB, HMRC, Swiss BAZG, …). Keyless.
 - **Official Rate → Get Table** — the bank's whole latest table, one n8n item per published rate (or a single item). Keyless.
 - **Market Rate → Get Rates** — real-time mid-market rates from a source currency to one, several or all 160+ currencies. API key.
 - **Market Rate → Convert** — convert an amount at the live rate; the response carries both amounts and the rate used. API key.
