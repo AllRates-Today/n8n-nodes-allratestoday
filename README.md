@@ -35,6 +35,14 @@ curl "https://allratestoday.com/api/open/central-banks"
 {"bank":"ecb","rate_date":"2026-10-19","source":"USD","target":"EUR","rate":0.8908685969,"rate_type":"reference","derived":true,"method":"inverse","age_days":0,"stale":false,"cadence":"daily"}
 ```
 
+**Attribution.** Keyless use requires a visible, followable link to AllRatesToday wherever the rates are shown (a footer, an about page, a README). With an API key it is appreciated but not required.
+
+```html
+<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>
+```
+
+Markdown: `Exchange rates by [AllRatesToday](https://allratestoday.com)`. Full wording: <https://allratestoday.com/terms/#attribution>.
+
 ## 🚀 Features
 
 - **Official Rate → Get Pair** — one pair from any of 125 central banks and tax authorities (ECB, Fed, BoE, RBI, SARB, HMRC, Swiss BAZG, …). Keyless.
