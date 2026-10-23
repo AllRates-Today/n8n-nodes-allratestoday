@@ -7,13 +7,12 @@
 
 An [n8n](https://n8n.io) community node for [AllRatesToday](https://allratestoday.com): the official exchange
 rates published by [122 central banks and 4 tax authorities](https://allratestoday.com/central-bank-rates-api/institutions/) (no API key needed) and real-time mid-market rates
-with amount conversion (free API key, 300 free requests).
+with amount conversion (free API key).
 
 ## 🔑 Credentials
 
 Official rates need no credential. For **Market Rate** operations add an **AllRatesToday API** credential
-with your key from [allratestoday.com/register](https://allratestoday.com/register) (free, no card,
-300 free requests). The key is sent as `Authorization: Bearer <key>`; the credential test calls
+with your key from [allratestoday.com/register](https://allratestoday.com/register) (free, no card). The key is sent as `Authorization: Bearer <key>`; the credential test calls
 `/api/v1/rates?source=USD&target=EUR`.
 
 ## ⚡ Try it without a key

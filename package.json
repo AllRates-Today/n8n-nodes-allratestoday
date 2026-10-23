@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-allratestoday",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "n8n community node for AllRatesToday: official central-bank exchange rates (keyless, 120+ sources) and real-time market rates with conversion",
 	"license": "MIT",
 	"homepage": "https://allratestoday.com",

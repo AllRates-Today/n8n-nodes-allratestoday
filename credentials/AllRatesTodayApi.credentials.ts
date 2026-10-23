@@ -20,7 +20,7 @@ export class AllRatesTodayApi implements ICredentialType {
 			typeOptions: { password: true },
 			default: '',
 			description:
-				'Your AllRatesToday API key (starts with art_live_). Register free at https://allratestoday.com/register — 300 free requests, no card. Official central-bank rates work without a key.',
+				'Your AllRatesToday API key (starts with art_live_). Register free at https://allratestoday.com/register — free, no card. Official central-bank rates work without a key.',
 		},
 	];
 
