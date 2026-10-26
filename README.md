@@ -100,6 +100,7 @@ Any endpoint also accepts `?format=csv|xml|xlsx` if you call it from an HTTP Req
 - Documentation: <https://allratestoday.com/docs/>
 - Pricing (dated tables, history): <https://allratestoday.com/pricing>
 - n8n community nodes: <https://docs.n8n.io/integrations/community-nodes/>
+- [Postman collection](https://allratestoday.com/postman/)
 
 ## 📜 License
 
