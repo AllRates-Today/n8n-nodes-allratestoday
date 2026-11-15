@@ -96,6 +96,7 @@ Any endpoint also accepts `?format=csv|xml|xlsx` if you call it from an HTTP Req
 ## 🔗 Links
 
 - Website: <https://allratestoday.com>
+- [Bank Exchange Rate API](https://allratestoday.com/bank-exchange-rate-api/) — live buy and sell rates from 1,200+ commercial banks in 120+ countries · [npm](https://www.npmjs.com/package/bank-exchange-rates) · [GitHub](https://github.com/AllRates-Today/bank-exchange-rates)
 - Central-bank rates API: <https://allratestoday.com/central-bank-rates-api/>
 - Documentation: <https://allratestoday.com/docs/>
 - Pricing (dated tables, history): <https://allratestoday.com/pricing>
